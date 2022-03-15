@@ -7,6 +7,7 @@
 body {
     background: #1b1c1e;
     text-align: center;
+    color: lightgrey;
 }
 
 h1 {
@@ -15,10 +16,12 @@ h1 {
     color: white;
     font-weight: 600;
     padding-bottom: 20px;
+    text-shadow: 2px 2px lavender;
 }
 
 p {
     color: #d2d2d2;
+    text-shadow: 2px 2px lavender;
 }
 
 p,
