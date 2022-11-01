@@ -13,18 +13,14 @@
 <body>
     <div class="container">
         <h1>Kontakt meg</h1>
-        <form action="mail.php" method="post">
-            <label for="name">Navn</label>
-            <input type="text" name="name" id="name">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="subject">Emne</label>
-            <input type="text" name="subject" id="subject">
-            <label for="message">Melding</label>
-            <textarea name="message" cols="30" rows="10"></textarea>
-            <input type="submit" value="Send">
+        <form action="https://formspree.io/f/xqkjglqd" method="POST">
+            <input type="text" name="Name" placeholder="Fult navn" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <textarea name="Massage" placeholder="Melding" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </div>
+
 
     <a href="index.html">
         <button>
